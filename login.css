@@ -1,0 +1,77 @@
+
+body {
+    background-color: #f8f9fa; /* Light background color for better contrast */
+    font-family: 'Arial', sans-serif; /* Clean font for readability */
+}
+.login-header a{
+    display: flex;
+    justify-content: start;
+}
+.login-header{
+    background-color: #007bff;
+    display: flex;
+}
+.login-header h1{
+    color:white;
+    display: flex;
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.container {
+    max-width: 400px; /* Limit the width of the container */
+    margin: 100px auto; /* Center the container on the page */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #ffffff; /* White background for the form */
+    border-radius: 8px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Darker text color for contrast */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form elements */
+}
+
+.form-control {
+    height: 45px; /* Increase height for input fields */
+    border-radius: 5px; /* Rounded corners on input fields */
+    border: 1px solid #ced4da; /* Light border color */
+    padding: 10px; /* Padding inside input fields */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Subtle shadow on focus */
+}
+
+.btn-primary {
+    width: 100%; /* Full width button */
+    height: 45px; /* Consistent height with input fields */
+    background-color: #007bff; /* Primary button color */
+    border-color: #007bff; /* Match border color with background */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    border-color: #0056b3; /* Darker border on hover */
+}
+
+.alert {
+    margin-top: 15px; /* Space above alerts */
+}
+
+p {
+    text-align: center; /* Centered text for registration link */
+}
+
+a {
+    color: #007bff; /* Link color matching primary button */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}

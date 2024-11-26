@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    background-color: #3867d6; /* Header background color */
+    position: sticky;
+    top: 0; /* Ensure header stays at the top */
+}
+
+#header img {
+    width: 150px;
+}
+
+#header .searchbar {
+    background-color: #3867d6; /* Match header background */
+    border: 2px solid black;
+}
+
+#header .searchbar .searcharea {
+    width: 250px;
+    height: 30px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0px 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600; /* Corrected from 600px to 600 */
+    color: white; /* Text color */
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: black; /* Hover color change */
+}
+
+.category-list {
+    background-color: rgb(27, 21, 66); /* Background color for category list */
+    width: auto; /* Allow width to adjust based on content */
+    height: auto; /* Allow height to adjust based on content */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: row; /* Align items in a row (side by side) */
+    padding: 10px; /* Add padding for spacing */
+    justify-content: space-evenly; /* Center items horizontally */
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+.category-list a {
+    text-decoration: none;
+    margin: 0px 8px; /* Margin between links */
+    display: flex; /* Use flexbox for link layout */
+    color: white; /* Text color for links */
+    padding: 10px; /* Add padding for better click area */
+    justify-content: space-between;
+}
+
+.category-list a:hover {
+    color: #3867d6; /* Hover color change */
+}
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.section-p1{
+    padding: 40px 80px;
+}
+
+.section-m1{
+    margin: 40px 0;
+}
+
+.pro img{
+    width: 150px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro{
+    width: 23%;
+    margin: 10px;
+    border-radius: 20px;
+    min-width: 200px;
+    padding: 10px 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightslategrey;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+
+footer .col a{
+    color: black;
+    text-decoration: none;
+}
